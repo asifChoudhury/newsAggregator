@@ -1,0 +1,35 @@
+{
+  "name": "newsaggregator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asifChoudhury/newsAggregator.git"
+  },
+  "author": "md asif choudhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asifChoudhury/newsAggregator/issues"
+  },
+  "homepage": "https://github.com/asifChoudhury/newsAggregator#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.4",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp-cssnano": "^2.1.2",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-pngout": "^2.0.0",
+    "imagemin-upng": "^1.2.2"
+  }
+}

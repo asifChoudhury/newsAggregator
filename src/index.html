@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample News Aggregator</title>
+        <!-- build:css css/main.min.css -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- endbuild -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <div id="container">
+        <div id="wrapper-content">
+            <div id="content">
+                <div id="header-content">
+                    <div id="header-logo">
+                        <img src="images/logo.svg">
+                    </div>
+                    <div id="search-menu">
+                        <div id="search">
+                            <form action="/action_page.php">
+                              <input type="text" placeholder="Search.." name="search">
+                              <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div id="wrapper-menu">
+                            <ul id="menu">
+                                <li class="menu-item">
+                                    <a href="#my-account">My Account</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#my-subscriptions">My Subscriptions</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#my-articles">My Articles</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <section id="main-content">
+                    <section id="navbar">
+                        <ul id="navbar-menu">
+                            <li class="navbar-menu-item">DESTINATIONS</li>
+                            <li class="navbar-menu-item">GETAWAYS</li>
+                            <li class="navbar-menu-item">TRAVEL TIPS</li>
+                            <li class="navbar-menu-item">NEWS &amp FEATURES</li>
+                            <li class="navbar-menu-item">CONTESTS</li>
+                            <li class="navbar-menu-item">CONTACT US</li>
+                        </ul>
+                    </section>
+                    <section id="center-content">
+                        <div id="carousel">
+                            <div id="carousel-image">
+                                <img src="images/carousel/london.png" width="640px">
+                            </div>
+                            <div id="carsousel-image-selection">
+                                <ul id="list-images">
+                                    <li class="image">
+                                        <img src="images/carousel/london.png" width="157px">
+                                    </li>
+                                    <li class="image">
+                                        <img src="images/carousel/mt-rushmore.png" width="157px">
+                                    </li>
+                                    <li class="image">
+                                        <img src="images/carousel/submarine.png" width="157px">
+                                    </li>
+                                    <li class="image">
+                                        <img src="images/carousel/venetian.png" width="157px">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="ads">
+                            <img class="ads-image" src="images/ads/ad1.png" width="250px" height="205px">
+                            <img class="ads-image" src="images/ads/ad2.png" width="250px" height="205px">
+                        </div>
+                        <hr>
+                        <br>
+                    </section>
+                </section>
+                <section id="footer-content">
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- build:js js/main.min.js -->
+    <script type="text/javascript" src="js/base.js"></script>
+    <!-- endbuild -->
+    </body>
+</html>

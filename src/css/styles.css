@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body,
+html {
+  height: 120%; }
+
+body {
+  /* The image used */
+  background-image: url("../images/background.jpg");
+  /* Full height */
+  height: 120%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#content {
+  width: 960px;
+  margin: 0 auto; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+/**********************************
+        Header Section
+***********************************/
+#header-content {
+  width: 100%;
+  padding: 1em 0; }
+
+#header-logo,
+#search-menu {
+  display: inline-block; }
+
+#header-logo {
+  float: left; }
+
+#search-menu {
+  float: right;
+  padding-top: 1.2em; }
+
+#search {
+  position: relative; }
+
+input {
+  width: 100%; }
+
+.search-button {
+  top: 0.2em;
+  right: 10px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  z-index: 2;
+  border: none;
+  background-color: white;
+  color: #655e5e; }
+
+.menu-item {
+  display: inline;
+  color: white; }
+
+/**********************************
+        Main Section
+***********************************/
+#main-content {
+  width: 100%;
+  margin: 6em 0 0;
+  background-color: white; }
+
+#navbar {
+  width: 100%; }
+
+#navbar-menu {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #EEE; }
+
+.navbar-menu-item {
+  display: inline;
+  color: gray;
+  padding: 0 25px; }
+
+#center-content {
+  width: 100%; }
+
+#carousel,
+#ads {
+  display: inline-block;
+  vertical-align: top; }
+
+#carousel {
+  width: 640px;
+  margin: 0 0.8em; }
+
+#ads {
+  width: 250px; }
+
+#carousel-image,
+#carousel-image-selection {
+  display: block; }
+
+#carousel-image {
+  width: 640px; }
+
+#carsousel-image-selection {
+  width: 640px; }
+
+#list-images {
+  width: 640px; }
+
+.image {
+  display: inline-block; }
+
+.ads-image {
+  padding-top: 13px; }
+
+/**********************************
+        Footer Section
+***********************************/
