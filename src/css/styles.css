@@ -91,7 +91,8 @@ input {
   padding: 0 25px; }
 
 #center-content {
-  width: 100%; }
+  width: 100%;
+  margin-left: .9em; }
 
 #carousel,
 #ads {
@@ -100,7 +101,7 @@ input {
 
 #carousel {
   width: 640px;
-  margin: 0 0.8em; }
+  margin: 0.8em; }
 
 #ads {
   width: 250px; }
